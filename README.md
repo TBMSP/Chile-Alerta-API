@@ -2,7 +2,7 @@ Chile Alerta - Api
 =============================================================
 Api para consultar los eventos sismicos de Chile y el Mundo desde las bases de datos de https://chilealerta.com y https://sismologia.net
 
-## Funcionamiento
+# Funcionamiento
 
 Es simple, utilizando la solicitud GET a https://chilealerta.com/api/query este devolverá los resultados correspondientes.
 
@@ -13,7 +13,7 @@ La busqueda de los eventos tiene la siguente forma:
 https://chilealerta.com/api/query/?{parametros}
 ```
 
-##Parametros
+# Parametros
 ------------------------------------
 **select**:
 El parametro "select" es el principal para realizar la busqueda de los eventos. Este parametro puede tener las siguientes formas:
@@ -23,7 +23,7 @@ https://chilealerta.com/api/query/?select=ultimos_sismos_chile //Ultimos 15 sism
 https://chilealerta.com/api/query/?select=tsunami_chile //Ultimos 16 boletines de Tsunamis en Chile
 ```
 
-##Parametros Opcionales
+# Parametros Opcionales
 ------------------------------------
 **country**:
 El parametro "country" es un parametro opcional para realizar la busqueda de los eventos de algún país en especifico. Este parametro puede tener la siguiente forma:
@@ -51,7 +51,7 @@ https://chilealerta.com/api/query/?select=ultimos_sismos&minmagnitude=3
 https://chilealerta.com/api/query/?select=ultimos_sismos&minmagnitude=5
 ```
 
-**minmagnitude**:
+**limit**:
 El parametro "limit" es un parametro numérico opcional para realizar la busqueda de los eventos. El resultado entregara la cantidad de eventos según el valor de este parametro (el limite máximo es 100). Este parametro puede tener la siguiente forma:
 ```
 https://chilealerta.com/api/query/?select=ultimos_sismos&limit={int}
