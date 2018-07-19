@@ -1,6 +1,7 @@
 Chile Alerta - Api
 =============================================================
-Api para consultar los eventos sismicos de Chile y el Mundo desde las bases de datos de https://chilealerta.com y https://sismologia.net
+Api para consultar los eventos sismicos de Chile y el Mundo desde las bases de datos de https://chilealerta.com y https://sismologia.net <br /><br />
+Los datos son los mismos que utiliza la App "Chile Alerta" para Android: https://play.google.com/store/apps/details?id=net.TBMSP.Tool.ChileAlerta <br />
 
 # Funcionamiento
 
@@ -18,7 +19,7 @@ https://chilealerta.com/api/query/?{parametros}
 # Parametros
 ------------------------------------
 **user**:<br />
-El parametro "user" es el principal para realizar la busqueda de los eventos y un parametro obligatorio. Este paraemtro funciona como identificacion para el uso de esta Api. Ejemplo de este parametro:
+El parametro "user" es el principal para realizar la busqueda de los eventos y un parametro obligatorio. Este parametro funciona como identificacion para el uso de esta Api. Ejemplo de este parametro:
 ```
 https://chilealerta.com/api/query/?user=demo
 ```
@@ -74,15 +75,15 @@ https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&limit=5
 
 # Ejemplo de Consulta
 ------------------------------------
-<br />
-**Consulta**:<br />
+
+Consulta:<br />
 
 ```
 https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&limit=3&country=Chile
 ```
 
-<br />
-**Resultado en JSON**:<br />
+
+Resultado en JSON:<br />
 
 ```
 {
@@ -148,3 +149,7 @@ https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&limit=3&count
    ]
 }
 ```
+
+<br />
+Esta api esta sujeta a cambios.<br />Api creada por: <a href="http://twitter.com/TBMSP">@TBMSP</a><br />
+<br />
