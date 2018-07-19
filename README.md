@@ -52,9 +52,9 @@ https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&coutry={pais}
 
 Ejemplos:
 ```
-https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&coutry=chile //Chile
-https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&coutry=m%C3%A9xico //México
-https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&coutry=per%C3%BA //Perú
+https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&country=chile //Chile
+https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&country=m%C3%A9xico //México
+https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&country=per%C3%BA //Perú
 ```
 
 **minmagnitude**:<br />
