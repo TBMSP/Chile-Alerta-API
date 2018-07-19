@@ -1,5 +1,6 @@
 Chile Alerta - Api
 =============================================================
+<center><br><img src="http://chilealerta.com/web/resources/icons/icon256.png"><br></center>
 Api para consultar los eventos sismicos de Chile y el Mundo desde las bases de datos de https://chilealerta.com y https://sismologia.net <br /><br />
 Los datos son los mismos que utiliza la App "Chile Alerta" para Android: https://play.google.com/store/apps/details?id=net.TBMSP.Tool.ChileAlerta <br />
 
@@ -151,5 +152,5 @@ Resultado en JSON:<br />
 ```
 
 <br />
-Esta api esta sujeta a cambios.<br />Api creada por: <a href="http://twitter.com/TBMSP">@TBMSP</a><br />
+Esta api no contiene información Volcánica, Meteorológica y tampoco los avisos sísmicos, alerta sísmica y alarma sísmica de la App, además esta api esta sujeta a cambios.<br />Api creada por: <a href="http://twitter.com/TBMSP">@TBMSP</a><br />
 <br />
