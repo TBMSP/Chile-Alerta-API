@@ -17,6 +17,15 @@ La busqueda de los eventos tiene la siguente forma:
 https://chilealerta.com/api/query/?{parametros}
 ```
 
+# ¿Que información se puede obtener?
+------------------------------------
+
+La información que entregara esta API son:<br>
+- Ultimos Sismos en Chile.<br>
+- Ultimos Sismos en el Mundo.<br>
+- Ultimos Sismos de algun país.<br>
+- Ultimos Boletines de Tsunami de Chile.<br>
+
 # Parametros
 ------------------------------------
 **user**:<br />
@@ -117,7 +126,8 @@ Resultado en JSON:<br />
          "longitude":-68.021,
          "depth":132.15,
          "id":"56620244",
-         "url":"http:\/\/sismologia.net\/?user=demo&p=detalles&id=56620244"
+         "url":"http:\/\/sismologia.net\/?user=demo&p=detalles&id=56620244",
+	 "source":"INSIMU"
       },
       {
          "state":1,
@@ -131,7 +141,8 @@ Resultado en JSON:<br />
          "longitude":-68.7295,
          "depth":121.5,
          "id":"62402836",
-         "url":"http:\/\/sismologia.net\/?user=demo&p=detalles&id=62402836"
+         "url":"http:\/\/sismologia.net\/?user=demo&p=detalles&id=62402836",
+	 "source":"INSIMU"
       },
       {
          "state":1,
@@ -145,12 +156,13 @@ Resultado en JSON:<br />
          "longitude":-68.3,
          "depth":143,
          "id":"63169977",
-         "url":"http:\/\/sismologia.net\/?user=demo&p=detalles&id=63169977"
+         "url":"http:\/\/sismologia.net\/?user=demo&p=detalles&id=63169977",
+	 "source":"INSIMU"
       }
    ]
 }
 ```
 
 <br />
-Esta api no contiene información Volcánica, Meteorológica y tampoco los avisos sísmicos, alerta sísmica y alarma sísmica de la App, además esta api esta sujeta a cambios.<br />Api creada por: <a href="http://twitter.com/TBMSP">@TBMSP</a><br />
+Esta api no contiene información Volcánica, Meteorológica y tampoco los avisos sísmicos, alerta sísmica y alarma sísmica de la App, además esta api esta sujeta a cambios.<br /><br>Api creada por: <a href="http://twitter.com/TBMSP">@TBMSP</a> - <a href="http://twitter.com/ChileAlertaApp">@ChileAlertaApp</a><br />
 <br />
