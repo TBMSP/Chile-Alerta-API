@@ -58,7 +58,7 @@ https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&country=per%C
 ```
 
 **minmagnitude**:<br />
-El parametro "minmagnitude" es un parametro numérico opcional para realizar la busqueda de los eventos. El resultado entregara eventos con magnitud mayor o superior a este parametro. Este parametro puede tener la siguiente forma:
+El parametro "minmagnitude" es un parametro numérico opcional para realizar la busqueda de los eventos. El resultado entregara eventos con magnitud igual o superior a este parametro. Este parametro puede tener la siguiente forma:
 ```
 https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&minmagnitude={int}
 ```
