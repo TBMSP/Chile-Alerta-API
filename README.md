@@ -47,7 +47,7 @@ https://chilealerta.com/api/query/?user=demo&select=tsunami_chile //Ultimos 16 b
 **country**:<br />
 El parametro "country" es un parametro opcional para realizar la busqueda de los eventos de algún país en especifico. Este parametro puede tener la siguiente forma:
 ```
-https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&coutry={pais}
+https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&country={pais}
 ```
 
 Ejemplos:
