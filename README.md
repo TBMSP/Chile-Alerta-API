@@ -25,6 +25,7 @@ La información que entregara esta API son:<br>
 - Ultimos Sismos en el Mundo.<br>
 - Ultimos Sismos de algun país.<br>
 - Ultimos Boletines de Tsunami de Chile.<br>
+- Ultimas Alertas e Informaciones de Onemi.<br>
 
 # Parametros
 ------------------------------------
@@ -37,6 +38,7 @@ https://chilealerta.com/api/query/?user=demo
 **select**:<br />
 El parametro "select" es uno de los principales para realizar la busqueda de los eventos y un parametro obligatorio. Este parametro puede tener las siguientes formas:
 ```
+https://chilealerta.com/api/query/?user=demo&select=onemi //Ultimas alertas e informaciones de Onemi
 https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos //Ultimos sismos en el Mundo
 https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos_chile //Ultimos 15 sismos en Chile
 https://chilealerta.com/api/query/?user=demo&select=tsunami_chile //Ultimos 16 boletines de Tsunamis en Chile
@@ -95,7 +97,7 @@ https://chilealerta.com/api/query/?user=demo&select=ultimos_sismos&limit=3&count
 
 Resultado en JSON:<br />
 
-```
+```JSON
 {
    "metadata":{
       "request":"https:\/\/chilealerta.com\/api\/query\/?user=demo&select=ultimos_sismos&limit=3&country=Chile",
